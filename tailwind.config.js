@@ -14,6 +14,9 @@ export const theme = {
       mw: ["var(--font-mw)", ...fontFamily.sans],
       mw_sans: ["var(--font-mwsans)", ...fontFamily.sans],
     },
+    gridTemplateColumns: {
+      home_custom: "56% 44%",
+    },
   },
 };
 export const plugins = [];

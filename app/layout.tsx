@@ -1,10 +1,10 @@
-import "./globals.css";
-
 import localFont from "next/font/local";
 import { Red_Hat_Display } from "next/font/google";
 import { Merriweather } from "next/font/google";
 import { Merriweather_Sans } from "next/font/google";
 
+import "react-multi-carousel/lib/styles.css";
+import "./globals.css";
 // FONTS
 const aeroport = localFont({
   src: "../fonts/Aeroport_Bold.otf",

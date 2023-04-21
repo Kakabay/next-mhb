@@ -8,3 +8,19 @@
   width: 100%;
   margin: 0 auto;
 }
+
+.react-multi-carousel-dot button {
+  width: 14px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  transition: 0.3 all ease;
+}
+.react-multi-carousel-dot--active button {
+  background: #010431;
+  transition: 0.3 all ease;
+}
+
+.react-multiple-carousel__arrow:hover {
+  background: transparent;
+}
