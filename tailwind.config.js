@@ -25,6 +25,21 @@ export const theme = {
     },
     backgroundColor: {
       mred: "#E20000",
+      mgold: "#FFAB48",
+      mblue: "#121268",
+      mlightblue: "#37ABE1",
+    },
+    color: {
+      mred: "#E20000",
+      mgold: "#FFAB48",
+      mblue: "#121268",
+      mlightblue: "#37ABE1",
+    },
+    borderColor: {
+      mred: "#E20000",
+      mgold: "#FFAB48",
+      mblue: "#121268",
+      mlightblue: "#37ABE1",
     },
   },
 };
