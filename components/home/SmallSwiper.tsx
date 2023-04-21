@@ -13,7 +13,7 @@ const SmallSwiper = ({ images }: IProps) => {
         containerClass="small-swiper"
         responsive={{ all: { items: 1, breakpoint: { max: 4000, min: 0 } } }}
         autoPlay={true}
-        autoPlaySpeed={3000}
+        autoPlaySpeed={5000}
         draggable
         showDots
         ssr

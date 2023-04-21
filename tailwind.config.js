@@ -23,6 +23,9 @@ export const theme = {
     height: {
       home: "calc(100vh - 51px)",
     },
+    backgroundColor: {
+      mred: "#E20000",
+    },
   },
 };
 export const plugins = [];

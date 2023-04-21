@@ -1,5 +1,6 @@
 import LinkBlock from "@/components/home/LinkBlock";
 import MainSwiper from "@/components/home/MainSwiper";
+import Marque from "@/components/home/Marque";
 import SmallSwiper from "@/components/home/SmallSwiper";
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         <SmallSwiper images={images} />
         <SmallSwiper images={images} />
       </div>
+      <Marque />
     </main>
   );
 };
