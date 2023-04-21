@@ -16,11 +16,28 @@
   border: none;
   transition: 0.3 all ease;
 }
+
+.small-swiper .react-multi-carousel-dot button {
+  width: 6px;
+  height: 6px;
+}
+
 .react-multi-carousel-dot--active button {
   background: #010431;
   transition: 0.3 all ease;
 }
 
+.small-swiper .react-multiple-carousel__arrow {
+  height: 8px;
+}
 .react-multiple-carousel__arrow:hover {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 15px;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: 15px;
 }
