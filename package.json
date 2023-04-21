@@ -2,6 +2,7 @@
   "name": "next-mhb",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/home",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -17,22 +17,22 @@ const Marque = () => {
         className="w-full  bg-[#BBBB] z-10 my-[11px]"
         gradient={false}
       >
-        <Link href={"/"} className="mr-6 py-1">
+        <Link href={"/home"} className="mr-6 py-1">
           Omicron Is Making America’s Bad Jobs Even Worse
         </Link>
-        <Link href={"/"} className="mr-6 py-1">
+        <Link href={"/home"} className="mr-6 py-1">
           A Major New Index Fund Should Unnerve Climate-Skeptical CEOs
         </Link>
-        <Link href={"/"} className="mr-6 py-1">
+        <Link href={"/home"} className="mr-6 py-1">
           6 Months Inside One of America’s Most Dangerous Industries
         </Link>
-        <Link href={"/"} className="mr-6 py-1">
+        <Link href={"/home"} className="mr-6 py-1">
           Omicron Is Making America’s Bad Jobs Even Worse
         </Link>
-        <Link href={"/"} className="mr-6 py-1">
+        <Link href={"/home"} className="mr-6 py-1">
           A Major New Index Fund Should Unnerve Climate-Skeptical CEOs
         </Link>
-        <Link href={"/"} className="mr-6 py-1">
+        <Link href={"/home"} className="mr-6 py-1">
           6 Months Inside One of America’s Most Dangerous Industries
         </Link>
       </Marquee>
