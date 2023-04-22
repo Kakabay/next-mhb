@@ -2,6 +2,7 @@ import LinkBlock from "@/components/home/LinkBlock";
 import MainSwiper from "@/components/home/MainSwiper";
 import Marque from "@/components/home/Marque";
 import SmallSwiper from "@/components/home/SmallSwiper";
+import Toolbar from "@/components/home/Toolbar";
 
 const Home = () => {
   const images: string[] = [
@@ -13,6 +14,7 @@ const Home = () => {
   return (
     <main className="grid grid-cols-home_custom">
       <h1 className="hidden">HOME</h1>
+      <Toolbar />
       <MainSwiper />
       <div className="grid grid-cols-2 grid-rows-full3 h-home overflow-hidden">
         <LinkBlock href="/homeadvertising" content="Mahabat" color="#5461F0" />
