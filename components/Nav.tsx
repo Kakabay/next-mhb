@@ -9,7 +9,7 @@ import ThemeSwitch from "./home/ThemeSwitch";
 const Nav = () => {
   const path = usePathname();
   return (
-    <nav className="nav py-1 border-b">
+    <nav className="nav py-1 border-b-2 border-solid border-[#D9D9D9] ">
       <div className="container">
         <div className="nav-inner flex justify-between gap-4 items-center">
           <div className="flex gap-11 items-center justify-start">
@@ -28,7 +28,7 @@ const Nav = () => {
             <ul className="flex gap-5 items-center justify-start">
               <li>
                 <Link
-                  href={"/news"}
+                  href={"/main/news"}
                   className="block text-lg text-black transition-all font-redhat font-bold"
                   style={path.includes("news") ? { color: "#FFAB48" } : {}}
                 >
@@ -37,7 +37,7 @@ const Nav = () => {
               </li>
               <li>
                 <Link
-                  href={"/treasury"}
+                  href={"/main/treasury"}
                   className="block text-lg text-black transition-all font-redhat font-bold"
                   style={path.includes("treasury") ? { color: "#FFAB48" } : {}}
                 >
@@ -46,7 +46,7 @@ const Nav = () => {
               </li>
               <li>
                 <Link
-                  href={"/live"}
+                  href={"/main/live"}
                   className="block text-lg text-black transition-all font-redhat font-bold"
                   style={path.includes("live") ? { color: "#FFAB48" } : {}}
                 >
@@ -55,7 +55,7 @@ const Nav = () => {
               </li>
               <li>
                 <Link
-                  href={"/advert"}
+                  href={"/main/advert"}
                   className="block text-lg text-black transition-all font-redhat font-bold"
                   style={path.includes("advert") ? { color: "#FFAB48" } : {}}
                 >

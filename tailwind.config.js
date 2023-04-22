@@ -13,12 +13,14 @@ export const theme = {
       redhat: ["var(--font-redhat)", ...fontFamily.sans],
       mw: ["var(--font-mw)", ...fontFamily.sans],
       mw_sans: ["var(--font-mwsans)", ...fontFamily.sans],
+      alexandria: ["var(--font-alexandria)", ...fontFamily.sans],
     },
     gridTemplateRows: {
       full3: "repeat(3, 33.333333333333333333333%)",
     },
     gridTemplateColumns: {
       home_custom: "56% 44%",
+      footer: "70% 30%",
     },
     height: {
       home: "calc(100vh - 51px)",

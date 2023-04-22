@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import { Red_Hat_Display } from "next/font/google";
 import { Merriweather } from "next/font/google";
 import { Merriweather_Sans } from "next/font/google";
+import { Alexandria } from "next/font/google";
 
 import "react-multi-carousel/lib/styles.css";
 import "./globals.css";
@@ -23,6 +24,10 @@ const mw_sans = Merriweather_Sans({
   subsets: ["cyrillic-ext", "latin", "latin-ext"],
   variable: "--font-mwsans",
 });
+const alexandria = Alexandria({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-alexandria",
+});
 
 export const metadata = {
   title: "Turkmen TV",
@@ -36,7 +41,7 @@ export default function RootLayout({ children }: IProps) {
   return (
     <html
       lang="tm"
-      className={`${aeroport.variable} ${mw.variable} ${redhat.variable} ${mw_sans.variable}`}
+      className={`${aeroport.variable} ${mw.variable} ${redhat.variable} ${mw_sans.variable} ${alexandria.variable}`}
     >
       <body>{children}</body>
     </html>
