@@ -7,7 +7,7 @@ interface IProps {
   children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: IProps) {
+const RootLayout = ({ children }: IProps) => {
   const [theme, setTheme] = useState<ITheme["theme"]>("light");
   const themeContext = useMemo(() => ({ theme, setTheme }), [theme, setTheme]);
   setTimeout(() => setTheme("dark"), 3000);
@@ -20,4 +20,6 @@ export default function RootLayout({ children }: IProps) {
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
