@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/dist/client/image";
 import Carousel from "react-multi-carousel";
+import { v4 } from "uuid";
 
 interface IProps {
   images: string[];
@@ -22,7 +23,7 @@ const SmallSwiper = ({ images }: IProps) => {
         className="h-full"
       >
         {images.map((image) => (
-          <div className="w-full overflow-hidden">
+          <div className="w-full overflow-hidden" key={v4()}>
             <Image
               src={image}
               alt="small_banner"
