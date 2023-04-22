@@ -35,7 +35,7 @@ interface IProps {
 export default function RootLayout({ children }: IProps) {
   return (
     <html
-      lang="en"
+      lang="tm"
       className={`${aeroport.variable} ${mw.variable} ${redhat.variable} ${mw_sans.variable}`}
     >
       <body>{children}</body>
