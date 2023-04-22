@@ -66,7 +66,10 @@ const Nav = () => {
           </div>
           <ul className="flex gap-4 items-center">
             <li>
-              <Link href={"/"} className="font-redhat font-normal text-lg">
+              <Link
+                href={"/main/contact"}
+                className="font-redhat font-normal text-lg"
+              >
                 Habarlaşmak üçin
               </Link>
             </li>
