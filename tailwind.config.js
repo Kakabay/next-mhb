@@ -21,6 +21,7 @@ export const theme = {
     gridTemplateColumns: {
       home_custom: "56% 44%",
       footer: "70% 30%",
+      search: "1fr 70px",
     },
     height: {
       home: "calc(100vh - 51px)",
