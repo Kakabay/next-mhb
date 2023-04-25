@@ -15,7 +15,7 @@ const RootLayout = ({ children }: IProps) => {
   return (
     <html lang="tm" className={theme}>
       <GlobalContext.Provider value={{ themeContext }}>
-        <body>
+        <body className="bg-white dark:bg-black transition-all">
           <h1 className="hidden">Turkmen TV</h1>
           <Nav />
           <main>{children}</main>
