@@ -17,8 +17,8 @@ const Home = () => {
       <Toolbar />
       <MainSwiper />
       <div className="grid grid-cols-2 grid-rows-full3 h-home overflow-hidden">
-        <LinkBlock href="/homeadvertising" content="Mahabat" color="#5461F0" />
-        <LinkBlock href="/homelive" content="Göni Ýaýlym" color="#EB4765" />
+        <LinkBlock href="/advertising" content="Mahabat" color="#5461F0" />
+        <LinkBlock href="/live" content="Göni Ýaýlym" color="#EB4765" />
         <SmallSwiper images={images} />
         <SmallSwiper images={images} />
         <SmallSwiper images={images} />
