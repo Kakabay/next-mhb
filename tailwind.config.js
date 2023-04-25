@@ -31,6 +31,7 @@ export const theme = {
       mgold: "#FFAB48",
       mblue: "#121268",
       mlightblue: "#37ABE1",
+      categorybg: "rgba(180, 180, 180, 0.5)",
     },
     color: {
       mred: "#E20000",
