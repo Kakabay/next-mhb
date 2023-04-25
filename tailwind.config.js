@@ -22,6 +22,10 @@ export const theme = {
       home_custom: "56% 44%",
       footer: "70% 30%",
       search: "1fr 70px",
+      four: "repeat(4, 1fr)",
+      three: "repeat(3, 1fr)",
+      two: "repeat(2, 1fr)",
+      one: "repeat(1, 1fr)",
     },
     height: {
       home: "calc(100vh - 51px)",
