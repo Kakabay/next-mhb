@@ -143,7 +143,7 @@ const Treasury = () => {
           <div className="treasury-top flex flex-col gap-6">
             <SearchBar />
             <Categories />
-            <VideoList items={samples} isExtendable />
+            <VideoList items={samples} isExtendable sectionTitle="Ählisi" />
           </div>
         </div>
       </div>
