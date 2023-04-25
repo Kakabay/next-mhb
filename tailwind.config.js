@@ -49,6 +49,9 @@ export const theme = {
       mblue: "#121268",
       mlightblue: "#37ABE1",
     },
+    borderRadius: {
+      five: "5px",
+    },
   },
 };
 export const plugins = [];

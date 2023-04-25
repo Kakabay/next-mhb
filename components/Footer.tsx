@@ -72,7 +72,7 @@ const Footer = () => {
             </p>
             <Link
               href={"/main/tarif"}
-              className="bg-[#37ABE1] w-full py-3 px-4 rounded-[5px] text-center text-white font-redhat font-bold text-lg"
+              className="bg-[#37ABE1] w-full py-3 px-4 rounded-five text-center text-white font-redhat font-bold text-lg"
             >
               Go Premium
             </Link>

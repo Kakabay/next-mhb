@@ -6,7 +6,7 @@ import Link from "next/link";
 const VideoItem = ({ img, source, title, views, premium }: IVideo) => {
   return (
     <Link href={"/"} className="video-list-item flex flex-col gap-2">
-      <div className="relative h-[160px] w-full overflow-hidden rounded-[5px]">
+      <div className="relative h-[160px] w-full overflow-hidden rounded-five">
         <Image
           src={img}
           alt={`video_${img}`}

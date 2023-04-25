@@ -2,6 +2,7 @@ import { IVideo } from "@/typings/video.type";
 import SectionTitle from "./SectionTitle";
 import VideoItem from "./VideoItem";
 import { v4 } from "uuid";
+import { FiMoreHorizontal } from "react-icons/fi";
 
 interface IProps {
   sectionTitle?: string;
@@ -27,6 +28,19 @@ const VideoList = ({ isSlides, sectionTitle, items, isExtendable }: IProps) => {
           />
         ))}
       </div>
+      {isExtendable ? (
+        <div className="flex justify-center">
+          <button
+            type="button"
+            className="flex gap-2 rounded-five py-2 px-2 w-[180px] bg-mlightblue items-center justify-center"
+          >
+            <FiMoreHorizontal color="white" width={14} height={7} />
+            <span className="font-redhat text-lg font-bold text-white">
+              Ýene gör
+            </span>
+          </button>
+        </div>
+      ) : null}
     </div>
   );
 };
